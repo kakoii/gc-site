@@ -15,6 +15,12 @@ text-align: center;
     animation: glitch1 2.5s infinite;
 }
 
+footer {
+  color: white;
+  align-self: center;
+  font-size: 12px;
+}
+
 h5 {
     padding-left: 140vh;
 }
