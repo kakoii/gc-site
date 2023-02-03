@@ -12,7 +12,7 @@ import TheBoys from '../src/pages/TheBoys.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
   <Routes>
     <Route index element={<Main />} />
     <Route path="/login" element={<Login />} />
