@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from '../src/reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Main from './pages/Main.js'
-import Login from './pages/Login.js'
-import Landing from './pages/Landing.js'
-import About from './pages/About.js'
-import Minecraft from './pages/Minecraft.js'
-import TheBoys from './pages/TheBoys.js'
+import Main from '../src/pages/Main.js'
+import Login from '../src/pages/Login.js'
+import Landing from '../src/pages/Landing.js'
+import About from '../src/pages/About.js'
+import Minecraft from '../src/pages/Minecraft.js'
+import TheBoys from '../src/pages/TheBoys.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
