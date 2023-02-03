@@ -1,7 +1,7 @@
 {
   "name": "gc-site",
   "version": "0.1.0",
-  "homepage": "https://kakoii.github.io/gc-site",
+  "homepage": "https://cumsocks.wtf",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
