@@ -4,8 +4,8 @@ import LoginForm from '../components/LoginForm'
 
 function App() {
     const adminUser = {
-        username: "theboys",
-        password: "admin123"
+        username: "ratcave",
+        password: "ratcaveadmin"
     }
     
 
