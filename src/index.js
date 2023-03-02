@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from '../src/reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link, HashRouter } from 'react-router-dom'
 import Main from '../src/pages/Main.js'
 import Login from '../src/pages/Login.js'
 import Landing from '../src/pages/Landing.js'
@@ -13,6 +13,7 @@ import TheBoys from '../src/pages/TheBoys.js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/"></HashRouter>
   <Routes>
     <Route index element={<Main />} />
     <Route path="/login" element={<Login />} />
@@ -21,6 +22,7 @@ root.render(
     <Route path="/minecraft" element={<Minecraft />} />
     <Route path="/theboys" element={<TheBoys />} />
   </Routes>
+  </HashRouter>
   </BrowserRouter>
 
 );
